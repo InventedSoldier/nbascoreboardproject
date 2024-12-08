@@ -5,9 +5,9 @@
 
 NBA Scores is a website meant to display current games being played, while updating the score until game is complete. There will also be an option to click into each game and see the players with the most highlighted statistics (i.e. Lebron James 27 pts, 11 ast, 2 stl, 0 tov):
 
-1. HOME PAGE: This page features multiple arrays of films pulled from the API provided by the Movie Database, or TMDB.org. Even though the films cannot actually be played, they are clickable.
+1. HOME PAGE: This page will show current scores for the day and highlight players stats from those games. The informantion will be pulled from the API provided by BallDon'tLie.
 
-2. MORE INFO: If you click on a a game on the homepage, you will be show the games stats by quarter with time left, and the top three players with the highlighted statistics from each team.
+2. Second Page: If you click on a button in the top left corner of the homepage, you will be shown the schedule for the current NBA season in its entirety.
 
 ## Project Features
 
