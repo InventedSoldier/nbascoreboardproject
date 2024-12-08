@@ -7,7 +7,7 @@ NBA Scores is a website meant to display current games being played, while updat
 
 1. HOME PAGE: This page will show current scores for the day and highlight players stats from those games. The informantion will be pulled from the API provided by BallDon'tLie.
 
-2. Second Page: If you click on a button in the top left corner of the homepage, you will be shown the schedule for the current NBA season in its entirety.
+2. SECOND PAGE: If you click on a button in the top left corner of the homepage, you will be shown the schedule for the current NBA season in its entirety.
 
 ## Project Features
 
