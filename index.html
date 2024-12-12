@@ -3,31 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NBA Scoreboard Updates</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>NBA Games</title>
 </head>
 <body>
-    <!-- Start of Header -->
-    <header>
-        <button id="scheduleButton" onclick="window.location.href='schedule.html'">NBA Schedule</button>
-        <h1>NBA Live Scores</h1>
-    </header>
-    <!-- End of /Header -->
+    <h1>NBA Games</h1>
+    <div id="games-container"></div>
 
-    <!-- Start of Main -->
-    <main>
-        <section id="games">
-            <h2>Today's Games</h2>
-            <div id="gameList"></div>
-        </section>
+    <script>
+        const apiUrl = "https://api.balldontlie.io/v1/games";
+        const apiKey = "c4a760b6-4bee-45df-960b-e68b789ac51f";
 
-        <section id="highlights">
-            <h2>Top Players</h2>
-            <div id="playerStats"></div>
-        </section>
-    </main>
-    <!-- End of /Main -->
+        async function fetchGames() {
+        const response = await fetch(apiUrl, {
+                method: "GET",
+                headers: {
+                    "Authorization": apiKey 
+                }
+            });
 
-    <script src="script.js"></script>
+        if (response.ok) {
+                const data = await response.json();
+                console.log("API Response:", data); }
+        } fetchGames();
+        
+    </script>
 </body>
 </html>
