@@ -26,4 +26,6 @@ For this project, I have elected to include the following 4 features from the We
 
 3. "Retrieve data from a third party API and use it to display something in your app." My app will pull data from the NBA API to provide information on games and statsitics.
 
+***Full Schedule and Stats will be added at a later date.
+
 ## Rance Ellison, Code: KY, 2024.
