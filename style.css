@@ -1,3 +1,17 @@
+/* NBA Title Style */
+
+.nba-title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    background: linear-gradient(90deg, #c8102e, #000000, #007ac1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Start of Games Styling */
+
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -20,3 +34,59 @@ body {
 .game-box p {
     margin: 5px 0;
 }
+
+/* End of Games Styling */
+
+
+/* Start of Button Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.top-left-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.top-left-button:hover {
+    background-color: #0056b3;
+}
+
+.game-box {
+    width: 90%;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.game-box p {
+    margin: 5px 0;
+}
+
+/* End of Button Styling */

@@ -9,13 +9,20 @@ NBA Scores is a website meant to display current games being played, while updat
 
 2. SECOND PAGE: If you click on a button in the top left corner of the homepage, you will be shown the schedule for the current NBA season in its entirety.
 
+## Instructions To Run
+
+RUN LOCALLY. CLONE REPOSITORY: InventedSoldier/nbascoreboardproject
+Find Project In Directory: nbascoreboardproject
+Open Project (VSCode) .
+Right Click On "index.html" and Select "OPEN WITH LIVE SERVER"
+
 ## Project Features
 
 For this project, I have elected to include the following 4 features from the Web/Dev 2 requirement list:
 
-1. "Visualize data in a user friendly way. (e.g. graph, chart, etc)." I have inserted data that displays scores, time left in the game, amd players stats that pull in data from the NBA API. This data is stored and presented as a scrollable and clickable selection of games and players stats.
+1. "Visualize data in a user friendly way. (e.g. graph, chart, etc)." I have inserted data that displays scores, time left in the game, amd players stats that pull in data from Balldontlie API. This data is stored and presented as a scrollable selection of games. I will add players stats and updating scores at a later date.
 
-2. "Calculate and display data based on an external factor (ex: get the current date, and display how many days remaining until some event)" I will have data upadated in real time of NBA games scores, start times, in game time left, and possesion arrow of which team has the ball in that current moment.
+2. "Analyze data that is stored in arrays, objects, sets or maps and display information about it in your app. (ex: get the current games, and completion of games displayed)
 
 3. "Retrieve data from a third party API and use it to display something in your app." My app will pull data from the NBA API to provide information on games and statsitics.
 
